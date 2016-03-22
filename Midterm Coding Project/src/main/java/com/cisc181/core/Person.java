@@ -18,18 +18,6 @@ public abstract class Person implements java.io.Serializable {
 	private String phone_number;
 	private String email_address;
 
-	public Person(Date dOB, String firstName, String middleName, String lastName, String address, String phone_number,
-			String email_address) {
-		super();
-		DOB = dOB;
-		FirstName = firstName;
-		MiddleName = middleName;
-		LastName = lastName;
-		this.address = address;
-		this.phone_number = phone_number;
-		this.email_address = email_address;
-	}
-
 	public String getFirstName() {
 		return FirstName;
 	}
